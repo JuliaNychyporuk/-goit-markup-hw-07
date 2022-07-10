@@ -1,5 +1,6 @@
 @import "./base/common";
 @import "./base/reset";
+
 @import "./components/adress";
 @import "./components/backdrop";
 @import "./components/container";
@@ -10,8 +11,16 @@
 @import "./components/soc-links";
 @import "./components/logo";
 @import "./components/button";
+@import "./components/button-header";
+
 @import "./layout/header";
 @import "./layout/hero";
+@import "./layout/profile";
 @import "./layout/about";
 @import "./layout/team";
+@import "./layout/clients";
+@import "./layout/example";
 @import "./layout/footer";
+
+@import "./utils/vars";
+
