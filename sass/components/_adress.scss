@@ -26,16 +26,9 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.adress-mail:hover,
-.adress-mail:focus,
-.adress-tel:hover,
-.adress-tel:focus {
+    &:hover,
+    &:focus{
     color: rgba(33, 150, 243, 1);
 }
-
-.footer-content {
-    align-items: baseline;
-    display: flex;
 }

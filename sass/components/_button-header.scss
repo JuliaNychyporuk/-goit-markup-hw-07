@@ -9,9 +9,9 @@
     line-height: 1.88;
     color: var(--white);
     background-color: var(--accent);
-}
 
-.button {
-    cursor: pointer;
-
+    & {
+        cursor: pointer;
+    
+    }
 }

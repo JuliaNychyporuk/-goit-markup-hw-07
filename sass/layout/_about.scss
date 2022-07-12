@@ -13,15 +13,9 @@
 
 .section-2-list__item {
     max-width: 270px;
-}
-
-.section-2-list__item:not(:last-child) {
+    &:not(:last-child) {
     margin-right: 30px;
-}
-
-
-.section-2-list__item:not(:last-child) {
-    margin-right: 30px;
+  }
 }
 
 .section-2-list__text {
